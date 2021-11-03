@@ -1,0 +1,12 @@
+# Design files
+*.sketch
+*.xd
+*.fig
+
+# Custom files
+
+node_modules/
+
+#
+
+docs/
