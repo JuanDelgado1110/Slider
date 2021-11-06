@@ -1,0 +1,42 @@
+.slider__box {
+    padding: 2em 0;
+    background-image: url(../assets/images/pattern-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center 4px;
+}
+
+.slider__imageContainer {
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.slider__image {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.slider__controllers {
+    // FIXME No usar text-align, por que cuando meta postion: absolute el contenedor padre va a ser muy grande
+    text-align: center;
+}
+
+.slider__controller {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #fff;
+
+    &--left {
+        margin-right: -2.1px;
+        border-radius: 20px 0 0 20px;
+    }
+
+    &--right {
+        margin-left: -2.1px;
+        border-radius: 0 20px 20px 0;
+    }
+}
