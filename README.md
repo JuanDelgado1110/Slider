@@ -1,10 +1,14 @@
-# Titulo del Projecto
+# Project Title
 
-descripcion del proyecto
+Basic Slider Page
 
 ## Overview
 
-### que se puede/deberia poder hacer con la app o web site
+### What can / should be done with the app or web site
+
+-   See a functional slider
+
+-   Be able to see the page on mobile or desktop
 
 ### Screenshot
 
@@ -12,39 +16,45 @@ descripcion del proyecto
 
 ## My process
 
-pequña reseña del progreso
+My process to build web pages is: HTML, then CSS (although sometimes it is just to give me an idea of what the web will look like), and finally JavaScript
+
+For this mini project some of my thoughts were:
+
+-   "I must make the slider usable no matter how many testimonials I have" (since the slider must continue to work regardless of whether it has 2, 5, 10 or 1000 testimonials)
+-   Like many sliders, "this one must also change even if the user does nothing"
+-   "I have to think of a way to be able to add so many testimonials without having to write EVERYTHING from scratch (I must have a template, so that they are all the same)"
 
 ### Built with
 
-    -
-    -
-    -
-    -
-    -
+-   HTML5
+-   CSS
+    -   Flexbox
+    -   Grid
+-   SASS
+-   Vanilla JS
 
 ### What I learned
 
-una lista, imagenes, snipets de codigo
-
-    -
-    -
-    -
-    -
-    -
+-   Upload a web page with [Netlify](https://www.netlify.com/)
+-   Better separate my code from JS (in independent functions)
+-   Use JS modules
 
 ```html
-
+<head>
+	<script src="./src/javascript/scripts.js" type="module"></script>
+</head>
 ```
 
-![](./readme-image.png)
+```JavaScript
+import { users } from "./classes/users.js";
+
+export const users = [];
+```
 
 ### Continued development
 
-cosas que me costaron hacer o no pude hacer como yo queria y cosas que quisa pueda
-mejorar
-
-### Useful resources
+I must improve the setInterval, since I did not know how to do that every time the button is pressed the interval should stop and start again
 
 ### Links
 
--   [Live Site]()
+-   [Live Site](https://stoic-kare-8a8efc.netlify.app/)
