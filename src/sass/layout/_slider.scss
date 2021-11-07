@@ -1,9 +1,9 @@
 .slider {
-    display: grid;
+	display: grid;
 
-    &__title {
-        text-align: center;
-        font-weight: 700;
-        color: var(--text-color-primary);
-    }
+	&__title {
+		text-align: center;
+		font-weight: 700;
+		color: var(--text-color-primary);
+	}
 }
