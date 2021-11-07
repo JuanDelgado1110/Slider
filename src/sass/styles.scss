@@ -1,3 +1,9 @@
 @import "config/variables";
 
 @import "base/_tags";
+
+@import "layout/slider";
+@import "layout/slider-box";
+@import "layout/slider-description";
+
+@import "config/medias-queries";

@@ -5,18 +5,46 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
 
-        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet" />
 
+        <script src="./src/javascript/scripts.js" defer></script>
+        <link rel="stylesheet" href="./src/css/styles.css" />
 
-
+        <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/images/favicon-32x32.png" />
     </head>
     <body>
-        <!-- “ I’ve been interested in coding for a while but never taken the jump, until now. 
-               I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
-               excited about the future. ” -->
+        <section class="slider">
+            <h2 class="slider__title">Testimonials</h2>
 
-        <!-- Tanya Sinclair -->
-        <!-- UX Engineer -->
+            <div class="slider__box">
+                <div class="slider__imageContainer">
+                    <img src="./src/assets/images/image-tanya.jpg" alt="person" class="slider__image" />
+                </div>
+
+                <div class="slider__controllers">
+                    <button class="slider__controller slider__controller--left">
+                        <img src="./src/assets/images/icon-prev.svg" alt="arrow" class="slider__controllerImage" />
+                    </button>
+                    <button class="slider__controller slider__controller--right">
+                        <img src="./src/assets/images/icon-next.svg" alt="arrow" class="slider__controllerImage" />
+                    </button>
+                </div>
+            </div>
+
+            <div class="slider__description">
+                <p class="slider__testimony">
+                    “ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this
+                    course enough. I’m now in the job of my dreams and so excited about the future. ”
+                </p>
+
+                <div class="slider__userBox">
+                    <p class="slider__userName">Tanya Sinclair</p>
+                    <p class="slider__userProfession">UX Engineer</p>
+                </div>
+            </div>
+        </section>
 
         <!-- “ If you want to lay the best foundation possible I’d recommend taking this course. 
                The depth the instructors go into is incredible. I now feel so confident about 
